@@ -1,318 +1,167 @@
-/* RESET & BASE STYLES */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Instant ParL | Soin RENAISSANCE™ - Régulation du Système Nerveux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
 
-body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #1A1A1A;
-    background-color: #FAFAFA;
-    line-height: 1.6;
-}
+    <!-- Bannière Rareté & Réassurance -->
+    <div class="top-bar">
+        🌿 <strong>Offre Découverte :</strong> Plus que <strong>4 créneaux disponibles</strong> cette semaine pour le soin RENAISSANCE™
+    </div>
 
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    color: #111111;
-}
+    <!-- Header / Navigation Simplifiée -->
+    <header class="navbar">
+        <div class="container logo-container">
+            <span class="logo-text">L'Instant ParL</span>
+            <span class="badge-neuromarketing">Régulation du Système Nerveux</span>
+        </div>
+    </header>
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+    <!-- Hero Section 2 Colonnes (Style US DTC / High Conversion) -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="tagline">Épuisement mental & Tensions physiques</span>
+                <h1>Arrêtez de tout porter à bout de bras. Reconnectez votre système nerveux.</h1>
+                <p class="hero-subtitle">
+                    Le soin <strong>RENAISSANCE™</strong> n'est pas un simple massage détente : c'est un protocole immersif conçu pour couper le flux mental des personnes au bord du surmenage.
+                </p>
 
-.text-center {
-    text-align: center;
-}
+                <!-- Zone d'Action CTA Direct -->
+                <div class="cta-box">
+                    <a href="#reservation" class="btn-primary">
+                        <span>RÉSERVER MON SOIN RENAISSANCE™</span>
+                        <small>70€ au lieu de 100€ • Réservation instantanée en 2 clics</small>
+                    </a>
+                    <div class="guarantee-text">
+                        🔒 Réservation sécurisée • Annulation gratuite jusqu'à 24h avant
+                    </div>
+                    <div class="social-proof-micro">
+                        ⭐ <strong>4.9/5 sur Google</strong> • +120 personnes accompagnées à Plœuc-sur-Lié
+                    </div>
+                </div>
+            </div>
 
-/* BANNIÈRE SUPERIEURE (Vert Sauge Foncé) */
-.top-bar {
-    background-color: #4A6E59;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 15px;
-    font-size: 0.9rem;
-}
+            <!-- Carte Visuelle Asymétrique -->
+            <div class="hero-card-container">
+                <div class="hero-card">
+                    <div class="badge-floating">Spécialiste du relâchement</div>
+                    <h3>Ce que votre corps essaie de vous dire :</h3>
+                    <ul class="symptoms-list">
+                        <li>🧠 <strong>Charge mentale saturée :</strong> Vous pensez à tout, tout le temps.</li>
+                        <li>⚡ <strong>Tensions physiques :</strong> Cervicales nouées, mâchoire serrée, sommeil léger.</li>
+                        <li>😔 <strong>Sentiment de culpabilité :</strong> Vous vous oubliez pour tout faire tourner.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-/* NAVIGATION */
-.navbar {
-    padding: 20px 0;
-    background: #FFFFFF;
-    border-bottom: 1px solid #E2E8F0;
-}
+    <!-- Section Card Design (Déculpabilisation & Storytelling) -->
+    <section class="neuromarketing-section">
+        <div class="container text-center">
+            <h2>Prendre soin de soi n'est pas un luxe.<br>C'est une nécessité de santé globale.</h2>
+            <p class="section-desc">
+                Quand le système nerveux reste en état d'alerte permanente, le corps finit par imposer l'arrêt. Le protocole RENAISSANCE™ abaisse le niveau de cortisol pour réinitialiser vos capacités d'attention.
+            </p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">🧘‍♀️</div>
+                    <h3>Lâcher-prise guidé</h3>
+                    <p>Aucun effort à faire. Laissez votre mental se reposer complètement dès les premières minutes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🌿</div>
+                    <h3>Libération des tensions</h3>
+                    <p>Travail ciblé sur les zones d'accumulation du stress (trapèzes, cervicales, cuir chevelu, visage).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">☕</div>
+                    <h3>Transition en douceur</h3>
+                    <p>Un temps d'échange personnalisé autour d'une tisane bio. En silence ou en mots, selon votre besoin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-.logo-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    <!-- Section Intégration du Calendrier "Zero Friction" -->
+    <section id="reservation" class="booking-section">
+        <div class="container text-center">
+            <h2>Choisissez votre créneau en direct</h2>
+            <p>Pas besoin de passer un coup de téléphone. Sélectionnez directement le jour et l'heure qui vous conviennent :</p>
 
-.logo-text {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #4A6E59;
-}
+            <div class="booking-badges">
+                <span>🟢 Disponibilités en temps réel</span>
+                <span>🔒 Confirmation immédiate</span>
+                <span>🔄 Annulation flexible</span>
+            </div>
 
-.badge-neuromarketing {
-    background: #E8F0EC;
-    color: #4A6E59;
-    font-size: 0.8rem;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-weight: 600;
-}
+            <!-- Cadre de réservation intégré -->
+            <div class="calendar-embed-container">
+                <div class="placeholder-calendar">
+                    <p>🗓️ <strong>Module de Réservation Directe</strong></p>
+                    <small>(Iframe Cal.com / Planity / Resalib chargée directement ici)</small>
+                    <br><br>
+                    <a href="#" class="btn-secondary">Voir les disponibilités de la semaine</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-/* HERO SECTION (Fond Vert Sauge identique au site) */
-.hero {
-    padding: 60px 0;
-    background-color: #628B73;
-    color: #FFFFFF;
-}
+    <!-- Section Preuve Sociale / Témoignages Restructurés -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="text-center">Ce qu'elles ressentent après le soin :</h2>
+            <p class="section-desc text-center">Des retours authentiques de femmes qui ont choisi de poser leur charge mentale.</p>
+            
+            <div class="reviews-grid">
+                <!-- Carte 1 : Charge mentale & Repos -->
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">« Vous gérez, vous tenez, vous souriez même quand c'est dur. Personne ne voit ce que ça vous coûte... Je suis repartie de la séance avec une sensation de légèreté incroyable et l'impression d'avoir enfin débranché mon cerveau. »</p>
+                    <div class="review-author">
+                        <strong>— Cliente L'Instant ParL</strong>
+                        <small>Soin Régulation du Système Nerveux</small>
+                    </div>
+                </div>
 
-.hero h1 {
-    color: #FFFFFF;
-    font-size: 2.4rem;
-    line-height: 1.25;
-    margin-bottom: 20px;
-}
+                <!-- Carte 2 : Tensions physiques & Relâchement -->
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">« Cette tension dans la nuque, les épaules, la mâchoire qu'on accumule sans s'en rendre compte... Kimberley sait cibler exactement là où le corps retient le stress. Un vrai moment de soulagement. »</p>
+                    <div class="review-author">
+                        <strong>— Cliente L'Instant ParL</strong>
+                        <small>Plœuc-sur-Lié</small>
+                    </div>
+                </div>
 
-.hero-grid {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    gap: 40px;
-    align-items: center;
-}
+                <!-- Carte 3 : Sans jugement & Bienveillance -->
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">« Un accompagnement pour relâcher ce qu'on porte sans jugement et sans qu'on ait à s'expliquer. On se sent en sécurité dès les premières secondes. »</p>
+                    <div class="review-author">
+                        <strong>— Cliente L'Instant ParL</strong>
+                        <small>Accompagnement Sur-Mesure</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-.tagline {
-    text-transform: uppercase;
-    font-size: 0.85rem;
-    letter-spacing: 1.5px;
-    color: #F1F7F3;
-    font-weight: 700;
-    display: block;
-    margin-bottom: 10px;
-}
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 L'Instant ParL — Kimberley Leloir • Soin & Régulation du système nerveux à Plœuc-sur-Lié.</p>
+        </div>
+    </footer>
 
-.hero-subtitle {
-    font-size: 1.05rem;
-    color: #E2ECE6;
-    margin-bottom: 30px;
-}
-
-/* CTA BUTTON (Vert Accentué & Haute Lisibilité) */
-.btn-primary {
-    display: inline-block;
-    background-color: #3E634D;
-    color: #FFFFFF;
-    padding: 18px 28px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 700;
-    text-align: center;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-    transition: transform 0.2s ease, background-color 0.2s ease;
-    width: 100%;
-}
-
-.btn-primary:hover {
-    transform: translateY(-2px);
-    background-color: #2D4A39;
-    color: #FFFFFF;
-}
-
-.btn-primary span {
-    display: block;
-    font-size: 1.1rem;
-}
-
-.btn-primary small {
-    display: block;
-    font-weight: 400;
-    font-size: 0.85rem;
-    margin-top: 4px;
-    opacity: 0.9;
-}
-
-.guarantee-text {
-    font-size: 0.8rem;
-    color: #E2ECE6;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.social-proof-micro {
-    font-size: 0.85rem;
-    color: #FFFFFF;
-    margin-top: 15px;
-    text-align: center;
-}
-
-/* CARTE HIGHLIGHT HERO */
-.hero-card-container {
-    position: relative;
-}
-
-.hero-card {
-    background: #FFFFFF;
-    color: #222222;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    position: relative;
-}
-
-.badge-floating {
-    position: absolute;
-    top: -12px;
-    right: 20px;
-    background: #4A6E59;
-    color: #FFFFFF;
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 4px 12px;
-    border-radius: 12px;
-}
-
-.hero-card h3 {
-    margin-bottom: 15px;
-    font-size: 1.15rem;
-    color: #4A6E59;
-}
-
-.symptoms-list {
-    list-style: none;
-}
-
-.symptoms-list li {
-    margin-bottom: 14px;
-    font-size: 0.92rem;
-    line-height: 1.4;
-}
-
-/* NEUROMARKETING SECTION */
-.neuromarketing-section {
-    padding: 70px 0;
-    background-color: #FFFFFF;
-}
-
-.section-desc {
-    max-width: 700px;
-    margin: 15px auto 40px auto;
-    color: #4A5568;
-}
-
-.features-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.feature-card {
-    padding: 25px;
-    border-radius: 12px;
-    background: #F4F7F5;
-    border: 1px solid #E2ECE6;
-    text-align: left;
-}
-
-.feature-card .icon {
-    font-size: 1.8rem;
-    margin-bottom: 12px;
-}
-
-.feature-card h3 {
-    font-size: 1.1rem;
-    margin-bottom: 8px;
-    color: #2D4A39;
-}
-
-/* BOOKING SECTION */
-.booking-section {
-    padding: 70px 0;
-    background-color: #E8F0EC;
-}
-
-.booking-badges {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 15px;
-    font-size: 0.85rem;
-    color: #2D4A39;
-    font-weight: 600;
-}
-
-.calendar-embed-container {
-    margin-top: 25px;
-    background: #FFFFFF;
-    padding: 40px;
-    border-radius: 12px;
-    border: 1px dashed #A3C1AD;
-}
-
-.placeholder-calendar {
-    padding: 20px;
-}
-
-.btn-secondary {
-    display: inline-block;
-    padding: 12px 25px;
-    background: #4A6E59;
-    color: #FFFFFF;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-}
-
-/* REVIEWS SECTION */
-.reviews-section {
-    padding: 70px 0;
-    background: #FFFFFF;
-}
-
-.reviews-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    margin-top: 35px;
-}
-
-.review-card {
-    background: #F4F7F5;
-    padding: 25px;
-    border-left: 4px solid #628B73;
-    border-radius: 6px;
-}
-
-.review-card strong {
-    display: block;
-    margin-top: 12px;
-    color: #4A6E59;
-}
-
-/* FOOTER */
-footer {
-    padding: 30px 0;
-    background: #2D4A39;
-    color: #E2ECE6;
-    font-size: 0.85rem;
-}
-
-/* RESPONSIVE DESIGN (Mobile First) */
-@media (max-width: 768px) {
-    .hero-grid, .features-grid, .reviews-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-    
-    .booking-badges {
-        flex-direction: column;
-        gap: 8px;
-    }
-}
+</body>
+</html>
