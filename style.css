@@ -1,0 +1,268 @@
+/* RESET & BASE STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2D3748;
+    background-color: #FAFAFA;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #1A202C;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* BANNIÈRE DE RARETÉ */
+.top-bar {
+    background-color: #2C5282;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+}
+
+/* NAVIGATION */
+.navbar {
+    padding: 20px 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2C5282;
+}
+
+.badge-neuromarketing {
+    background: #EBF8FF;
+    color: #2B6CB0;
+    font-size: 0.8rem;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 60px 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7FAFC 100%);
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.tagline {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    color: #C53030;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: #4A5568;
+    margin-bottom: 30px;
+}
+
+/* CTA BUTTONS */
+.btn-primary {
+    display: inline-block;
+    background-color: #D69E2E;
+    color: #1A202C;
+    padding: 18px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(214, 158, 46, 0.4);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background-color: #B7791F;
+    color: #FFFFFF;
+}
+
+.btn-primary span {
+    display: block;
+    font-size: 1.1rem;
+}
+
+.btn-primary small {
+    display: block;
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    opacity: 0.9;
+}
+
+.guarantee-text {
+    font-size: 0.8rem;
+    color: #718096;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* CARD HIGHLIGHT */
+.hero-card {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border: 1px solid #E2E8F0;
+}
+
+.hero-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.hero-card ul {
+    list-style: none;
+}
+
+.hero-card li {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+/* NEUROMARKETING SECTION */
+.neuromarketing-section {
+    padding: 70px 0;
+    background-color: #FFFFFF;
+}
+
+.section-desc {
+    max-width: 700px;
+    margin: 15px auto 40px auto;
+    color: #4A5568;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    padding: 25px;
+    border-radius: 8px;
+    background: #F7FAFC;
+    border: 1px solid #EDF2F7;
+}
+
+.feature-card .icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* BOOKING SECTION */
+.booking-section {
+    padding: 70px 0;
+    background-color: #EDF2F7;
+}
+
+.calendar-embed-container {
+    margin-top: 30px;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px dashed #CBD5E0;
+}
+
+.placeholder-calendar {
+    padding: 30px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #2C5282;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* REVIEWS SECTION */
+.reviews-section {
+    padding: 70px 0;
+    background: #FFFFFF;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.review-card {
+    background: #F7FAFC;
+    padding: 25px;
+    border-left: 4px solid #D69E2E;
+    border-radius: 4px;
+}
+
+.review-card strong {
+    display: block;
+    margin-top: 15px;
+    color: #2C5282;
+}
+
+/* FOOTER */
+footer {
+    padding: 30px 0;
+    background: #1A202C;
+    color: #A0AEC0;
+    font-size: 0.85rem;
+}
+
+/* RESPONSIVE DESIGN (Mobile First) */
+@media (max-width: 768px) {
+    .hero-grid, .features-grid, .reviews-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+}
