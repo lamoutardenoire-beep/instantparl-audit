@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #2D3748;
+    color: #222222;
     background-color: #FAFAFA;
     line-height: 1.6;
 }
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    color: #1A202C;
+    color: #111111;
 }
 
 .container {
@@ -27,9 +27,9 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/* BANNIÈRE DE RARETÉ */
+/* BANNIÈRE DE RARETÉ (Vert Sauge Foncé) */
 .top-bar {
-    background-color: #2C5282;
+    background-color: #4A6E59;
     color: #FFFFFF;
     text-align: center;
     padding: 10px 15px;
@@ -53,22 +53,30 @@ h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #2C5282;
+    color: #4A6E59;
 }
 
 .badge-neuromarketing {
-    background: #EBF8FF;
-    color: #2B6CB0;
+    background: #E8F0EC;
+    color: #4A6E59;
     font-size: 0.8rem;
     padding: 5px 12px;
     border-radius: 20px;
     font-weight: 600;
 }
 
-/* HERO SECTION */
+/* HERO SECTION (Fond Vert Sauge comme sur l'image) */
 .hero {
     padding: 60px 0;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F7FAFC 100%);
+    background-color: #628B73;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .hero-grid {
@@ -82,42 +90,36 @@ h1, h2, h3 {
     text-transform: uppercase;
     font-size: 0.85rem;
     letter-spacing: 1.5px;
-    color: #C53030;
+    color: #F1F7F3;
     font-weight: 700;
     display: block;
     margin-bottom: 10px;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-
 .hero-subtitle {
     font-size: 1.1rem;
-    color: #4A5568;
+    color: #E2ECE6;
     margin-bottom: 30px;
 }
 
-/* CTA BUTTONS */
+/* CTA BUTTONS (Vert accentué identique à la marque) */
 .btn-primary {
     display: inline-block;
-    background-color: #D69E2E;
-    color: #1A202C;
+    background-color: #3E634D;
+    color: #FFFFFF;
     padding: 18px 30px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 700;
     text-align: center;
-    box-shadow: 0 4px 14px rgba(214, 158, 46, 0.4);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     transition: transform 0.2s ease, background-color 0.2s ease;
     width: 100%;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    background-color: #B7791F;
+    background-color: #2D4A39;
     color: #FFFFFF;
 }
 
@@ -136,23 +138,24 @@ h1, h2, h3 {
 
 .guarantee-text {
     font-size: 0.8rem;
-    color: #718096;
+    color: #E2ECE6;
     margin-top: 10px;
     text-align: center;
 }
 
-/* CARD HIGHLIGHT */
+/* CARD HIGHLIGHT (Fond blanc pour trancher) */
 .hero-card {
     background: #FFFFFF;
+    color: #222222;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-    border: 1px solid #E2E8F0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .hero-card h3 {
     margin-bottom: 15px;
     font-size: 1.2rem;
+    color: #4A6E59;
 }
 
 .hero-card ul {
@@ -185,8 +188,8 @@ h1, h2, h3 {
 .feature-card {
     padding: 25px;
     border-radius: 8px;
-    background: #F7FAFC;
-    border: 1px solid #EDF2F7;
+    background: #F4F7F5;
+    border: 1px solid #E2ECE6;
 }
 
 .feature-card .icon {
@@ -197,7 +200,7 @@ h1, h2, h3 {
 /* BOOKING SECTION */
 .booking-section {
     padding: 70px 0;
-    background-color: #EDF2F7;
+    background-color: #E8F0EC;
 }
 
 .calendar-embed-container {
@@ -205,7 +208,7 @@ h1, h2, h3 {
     background: #FFFFFF;
     padding: 40px;
     border-radius: 12px;
-    border: 1px dashed #CBD5E0;
+    border: 1px dashed #A3C1AD;
 }
 
 .placeholder-calendar {
@@ -215,7 +218,7 @@ h1, h2, h3 {
 .btn-secondary {
     display: inline-block;
     padding: 12px 25px;
-    background: #2C5282;
+    background: #4A6E59;
     color: #FFFFFF;
     text-decoration: none;
     border-radius: 6px;
@@ -236,23 +239,23 @@ h1, h2, h3 {
 }
 
 .review-card {
-    background: #F7FAFC;
+    background: #F4F7F5;
     padding: 25px;
-    border-left: 4px solid #D69E2E;
+    border-left: 4px solid #628B73;
     border-radius: 4px;
 }
 
 .review-card strong {
     display: block;
     margin-top: 15px;
-    color: #2C5282;
+    color: #4A6E59;
 }
 
 /* FOOTER */
 footer {
     padding: 30px 0;
-    background: #1A202C;
-    color: #A0AEC0;
+    background: #2D4A39;
+    color: #E2ECE6;
     font-size: 0.85rem;
 }
 
